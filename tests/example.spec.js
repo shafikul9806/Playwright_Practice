@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 
-const {test, expect} = require('@playwright/test');
-=======
-import {test, expect} from '@playwright/test';
-//// 
->>>>>>> test1
+
 test('get started link', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
